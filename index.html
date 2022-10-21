@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Robert Ferrer">
+    <meta name="keywords" content="Front-end, Robert Ferrer, robertferrer, landing, page, one, Landing Page, react, native, developer, web, websites, website, app, ui/ux, designer, marketing, freelancer, portfolio, template, wordpress,">
+    <meta name="description" content="Robert Ferrer, I create interactive and engaging websites with animated graphics based on HTML5, CSS3, JavaScript and WIX that can be displayed on. I'm web developer, marketing, UI/UX designer and freelancer">
+    <meta name="copyright" content="© 2022 Robert Ferrer landing page one" />
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general" />
+    <link rel="icon" class="logo2" href="assets/files/logomini.png">
+    <!-- linkidIn end-->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <!--Button scrollY Uo-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--icon link-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>Robert Ferrer Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" class="white">
+    <!-- navigation menu start -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class=" logo-menu" src="assets/files/logomini.png">Diane Lang<span class="menu-brand">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon logo-menu"><i class="bi bi-justify-right"></i></i></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row ">
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="bi bi-envelope-fill"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="bi bi-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function() {
+                if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                    document.getElementById('navbar').classList.add('scrolled');
+                } else {
+                    document.getElementById('navbar').classList.remove('scrolled');
+                }
+            }
+        </script>
+    </nav>
+    <!-- navigation menu end -->
+    <!--ScrollY Up Button start-->
+    <button class="my_bttn">
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+	</button>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 300) {
+                    $('.my_bttn').fadeIn(250);
+                } else {
+                    $('.my_bttn').fadeOut(250);
+                }
+            });
+            $('.my_bttn').click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 400);
+            });
+        });
+    </script>
+    <!--ScrollY Up Button start-->
+    <!--home Section start-->
+    <section id="home" class=" home d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-2 fw-bold text-white" data-aos="fade-up">Hi there! I am <span class="text-brand">Diane Lang.</span></h1>
+                    <h4 data-aos="fade-up" data-aos-delay="100" class="mt-3 mb-5">New York City Web Designer and Photographer</h4>
+                    <div data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-brand">See more</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home Section end-->
+    <!--services Section start-->
+    <section id="services" class=" services section-padding ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="setion-title text-muted text-center" data-aos="fade-up" data-aos-delay="100">
+                        <h1>Services</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto dignissimos saepe iste soluta. Aperiam exercitationem doloribus soluta.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 text-center">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service py-5 px-4 border">
+                        <div class="service-icon">
+                            <i class="bi bi-basket3-fill"></i>
+                        </div>
+                        <h5 class="mt-4 text-muted">Resources</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere nihil</p>
+                        <a href="#" class="custom-link text-muted">
+                            <span class="text-muted">Read More</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service py-5 px-4 border">
+                        <div class="service-icon">
+                            <i class="bi bi-briefcase-fill"></i>
+                        </div>
+                        <h5 class="mt-4 text-muted">Works</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere nihil</p>
+                        <a href="#" class="custom-link text-muted">
+                            <span class="text-muted">Read More</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service py-5 px-4 border">
+                        <div class="service-icon">
+                            <i class="bi bi-camera2"></i>
+                        </div>
+                        <h5 class="mt-4 text-muted">Photography</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere nihil</p>
+                        <a href="#" class="custom-link text-muted">
+                            <span class="text-muted">Read More</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service py-5 px-4 border">
+                        <div class="service-icon">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <h5 class="mt-4 text-muted">Business</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere nihil</p>
+                        <a href="#" class="custom-link text-muted">
+                            <span class="text-muted">Read More</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services Section end-->
+    <!--About Section start-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-5">
+                    <img class="img-about" src="assets/img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <h6 class="text-muted">About Company</h6>
+                    <h1 class="mt-2 mb-4 color-about-text">Show your content to the world like a pro</h1>
+                    <p class="mb-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam distinctio error iusto esse porro ducimus quo voluptas quos quibusdam praesentium ipsam quisquam velit voluptatum architecto aspernatur, dolorem excepturi totam nostrum
+                        quod ratione culpa facilis iste molestias temporibus? Ipsam, quas iusto rem cumque vel corrupti neque a obcaecati, itaque perferendis voluptatibus!</p>
+                    <a href="#" class="btn btn-brand">See our work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section end-->
+    <!--portfolio model  Section start-->
+    <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="setion-title text-muted text-center" data-aos="fade-up" data-aos-delay="100">
+                        <h1>Portfolio</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto dignissimos saepe iste soluta. Aperiam exercitationem doloribus soluta.</p>
+                        <div class="line"></div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-slider owl-carousel owl-theme container">
+            <div class="portfolio-item">
+                <img src="./assets/img/p1.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p2.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p3.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p4.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p5.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p6.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-slider owl-carousel owl-theme container">
+            <div class="portfolio-item">
+                <img src="./assets/img/p6.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p5.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p4.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p3.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p2.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/img/p1.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="text-portfolio-title">View project</h2>
+                    <p class="text-portfolio">see More</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--portfolio model Section end-->
+    <!--Testimonials end-->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container-lg">
+            <div class="col-12">
+                <div class="setion-title text-muted text-center" data-aos="fade-up" data-aos-delay="100">
+                    <h1>Customer Opinions</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto dignissimos saepe iste soluta. Aperiam exercitationem doloribus soluta.</p>
+                    <div class="line"></div>
+                    <br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/client1.jpg" alt="Robert Ferrer landing page one customers">
+                            <i class="fas fa-quote-right "></i>
+                        </figure>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur placeat voluptas perspiciatis, deserunt natus!."</p>
+                        <h3>Leticia Passareli</h3>
+                        <span>Developer</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/client2.jpg" alt="Robert Ferrer landing page one customers">
+                            <i class="fas fa-quote-right "></i>
+                        </figure>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi veritatis quae! Magni, vitae eligendi."</p>
+                        <h3>Pedro Marshal</h3>
+                        <span>Developer</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/client3.jpg" alt="Robert Ferrer landing page one customers">
+                            <i class="fas fa-quote-right "></i>
+                        </figure>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque sunt nihil similique non perspiciatis."</p>
+                        <h3>Gabriela Petrolic</h3>
+                        <span>Designer</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials end-->
+    <!-- blog start -->
+    <section class="blog section-padding" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="setion-title text-muted text-center" data-aos="fade-up" data-aos-delay="100">
+                        <h1>News Blog</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto dignissimos saepe iste soluta. Aperiam exercitationem doloribus soluta.</p>
+                        <div class="line"></div>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img class="blog-img" src="assets/img/grid1.png" alt="">
+                            <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
+                            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img class="blog-img" src="assets/img/grid2.png" alt="">
+                            <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
+                            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img class="blog-img" src="assets/img/grid3.png" alt="">
+                            <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
+                            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- blog end -->
+    <!--Contact Section start-->
+    <section class="contact" id="contact">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-lg-8 ">
+                    <div class="section-title ">
+                        <h2>get in <span>touch</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-6 col-md-6  margin-contact">
+                    <div class="contact-info-item ">
+                        <h3>Let's talk</h3>
+                        <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, quo voluptate tempora sunt debitis non cumque dolores nulla eveniet quis.</p>
+                        <br>
+                        <div class="contact-info-item ">
+                            <i class="fas fa-location-arrow "></i>
+                            <h4>Company Location</h4>
+                            <p>New York, EUA</p>
+                        </div>
+                        <div class="contact-info-item ">
+                            <i class="fas fa-envelope "></i>
+                            <h4>Write to me at</h4>
+                            <p>suport@test.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 margin-contact">
+                    <div class="contact-form contact-info-item ">
+                        <h3>Form contact</h3>
+                        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                            <input class="d-none" name="bot-field">
+                            <div class="row ">
+                                <div class="col-lg-12 ">
+                                    <div class="form-group ">
+                                        <input name="nome" type="text" placeholder="Your name" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-6 ">
+                                    <div class="form-group ">
+                                        <input name="phone" type="text" placeholder="Your phone number" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="form-group ">
+                                        <input name="email" type="email" placeholder="Your email" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-12 ">
+                                    <div class="form-group ">
+                                        <textarea class="form-control" id="textarea" name="mensagem" placeholder="Your message" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-12 ">
+                                    <div class="form-group ">
+                                        <button type="submit " class="btn btn-brand-resume ">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section end-->
+    <!--Footer start-->
+    <footer class="footer " id="footer">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 ">
+                    <div class="footer-col ">
+                        <h3 class="title-footer ">About Me</h3>
+                        <div class="col-auto social-links-footer ">
+                            <p class="about-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia recusandae quisquam aliquid unde voluptatem architecto odio cupiditate fugiat dolores quis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="footer-col ">
+                        <h3 class="title-footer ">Company</h3>
+                        <ul>
+                            <li>
+                                <a href="assets/pages/privacypolicy.html">privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="assets/pages/termsofuse.html">terms of Use</a>
+                            </li>
+                            <li>
+                                <a href="assets/pages/missionvalues.html">mission and values</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="footer-col ">
+                        <h3 class="title-footer ">Social Media</h3>
+                        <ul>
+                            <li>
+                                <a href="#">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="#">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="#">E-mail</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <br>
+                <div class="col-lg-12 ">
+                    <p class="copyright-text ">&copy; Copyright 2023 All rights reserved by <strong>Robert Ferrer</strong></p>
+                    <br> <br><br>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer end-->
+    <!--button sidebar function-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- ScrollIt Theme Dark js -->
+    <script src="assets/js/scrollIt.min.js "></script>
+    <!-- jquery js -->
+    <script src="assets/js/jquery.min.js "></script>
+    <!-- popper js -->
+    <script src="assets/js/popper.min.js "></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js "></script>
+    <!-- bootstrap bundlers -->
+    <script src="assets/js/bootstrap.bundle.min.js "></script>
+    <!-- app js -->
+    <script src="assets/js/app.js "></script>
+    <!-- owl carousel js -->
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <!-- ScrollIt js -->
+    <script src="assets/js/scrollIt.min.js "></script>
+    <!-- audio js -->
+    <script src="assets/js/audio.js "></script>
+    <!--text home-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js "></script>
+    <!-- main js -->
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
